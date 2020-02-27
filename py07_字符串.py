@@ -20,3 +20,11 @@ s3="9785223"
 print(s1)
 print(s2)
 print(s3)
+# 提取字符串中的索引值
+print(s1[0])
+print(s2[1])
+print(s3[2])
+print(s1[0:4])
+print(s1[1]*2)
+print(s1*2)
+print(s2+s1)
