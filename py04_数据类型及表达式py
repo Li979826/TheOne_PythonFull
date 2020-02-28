@@ -41,3 +41,5 @@ c=3e+26j
 a,b=10,20
 print(a==b)
 
+print("该字符串的长度为：%s" % len('''ddjkjfjdljf'''))
+

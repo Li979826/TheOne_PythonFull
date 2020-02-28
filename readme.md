@@ -120,3 +120,20 @@ print(r"\n")
     print("格式串1，格式串2..." % (变量1, 变量2...))
 
     
+>字符串内置函数
+>
+    len(str)
+          str = "djdsljflsjdkj"
+    示范: print("该字符串%s的长度为：%d" % (str, len(str)) )
+    
+>字符串对象方法
+>
+    upper() 转换字符串中的小写字母为大写
+    lower() 转换字符串中所有大写字符为小写
+    isdigit()如果字符串只包含数字则返回 True 否则返回 False
+    join(str) 以指定字符分隔str字符串
+    split(str) 用str指定的字符来产生一个列表
+    
+    
+#py08_列表到分支
+>
