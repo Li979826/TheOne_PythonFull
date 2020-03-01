@@ -153,17 +153,24 @@ print(r"\n")
     ——————del 标识符(标数)  同上
     -----标识符.remove(元素) 删除列表中确定元素(根据内容元素)
 >  Tuple 元组
->
+
 
 >流程控制
->
-![流程控制](https://upload-images.jianshu.io/upload_images/15420318-934093e3ac7301f3.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp)
->》一、顺序结构
-    
+>》一、顺序结构   
+
     从上向下，顺序执行代码
 >》二、分支结构
->
+
     根据条件判断，决定执行代码的分支
+        每个条件后面都要用冒号结束
+    语法格式：
+        if 条件表达式1：
+            语句块1
+        elif 条件表达式2：
+            语句块2
+        else：
+            语句块3
 >》三、循环结构
     
     让特定代码重复执行
+    
