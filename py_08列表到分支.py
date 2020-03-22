@@ -35,37 +35,37 @@ str = ['ABCDE', 222, 333]
 # print(str)
 
 # 追加元素到列表末尾
-# str.append('11111')
-# print(str)
+str.append('11111')
+print(str)
 
-# if str[1]>1:
-#     print('傻吊')
-# else:
-#     print("111")
-#
-# a=input("请输入a的值")
-# b=input("请输入b的值")
-# if a>b:
-#     print("a>b")
-# elif a==b:
-#     print("a=b")
-# else:
-#     print('a<b')
+if str[1]>1:
+    print('傻吊')
+else:
+    print("111")
 
-#
-# '''判断奇偶数'''
-# sst = int(input("请输入任意一个数字:"))
-# if sst % 2 == 1:
-#     print("该数字%s为奇数"%sst)
-# else:
-#     print("该数字%s为偶数"%sst)
-#
-# '''判断闰年与否'''
-# r_year = int(input("请输入一个四位数的年份"))
-# if (r_year % 4 == 0) and (r_year % 400 == 0):
-#     print('该年份为闰年')
-# elif (r_year % 100 != 0):
-#     print('该年份不是闰年')
+a=input("请输入a的值")
+b=input("请输入b的值")
+if a>b:
+    print("a>b")
+elif a==b:
+    print("a=b")
+else:
+    print('a<b')
+
+
+'''判断奇偶数'''
+sst = int(input("请输入任意一个数字:"))
+if sst % 2 == 1:
+    print("该数字%s为奇数"%sst)
+else:
+    print("该数字%s为偶数"%sst)
+
+'''判断闰年与否'''
+r_year = int(input("请输入一个四位数的年份"))
+if (r_year % 4 == 0) and (r_year % 400 == 0):
+    print('该年份为闰年')
+elif (r_year % 100 != 0):
+    print('该年份不是闰年')
 
 
 '''计算BMI指数'''

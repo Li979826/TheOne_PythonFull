@@ -21,3 +21,4 @@ sum=sum-5
 print(sum)          #输出打印花了多少钱。sum
 
 
+print(15/2)
